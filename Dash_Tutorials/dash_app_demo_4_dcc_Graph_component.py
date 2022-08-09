@@ -1,3 +1,16 @@
+"""
+More about Visualization
+The Dash Core Components module (dash.dcc) includes a component called Graph.
+
+Graph renders interactive data visualizations using the open source plotly.js JavaScript graphing library. Plotly.js 
+supports over 35 chart types and renders charts in both vector-quality SVG and high-performance WebGL.
+
+The figure argument in theGraph component is the same figure argument that is used by plotly.py, Plotly's open source 
+Python graphing library. Check out the plotly.py documentation and gallery to learn more.
+
+Here's an example that creates a scatter plot from a Pandas dataframe . Create a file named app.py with the following 
+code"""
+
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 

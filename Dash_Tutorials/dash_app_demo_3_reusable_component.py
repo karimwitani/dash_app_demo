@@ -1,3 +1,10 @@
+"""
+Reusable Components
+By writing our markup in Python , we can create complex reusable components like tables without switching contexts or 
+languages.
+
+Here's a quick example that generates a Table from a Pandas dataframe . Create a file named app.py with the following 
+code:"""
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 

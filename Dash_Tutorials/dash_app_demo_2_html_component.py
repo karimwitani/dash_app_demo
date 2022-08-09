@@ -1,3 +1,11 @@
+"""
+More about HTML components
+Dash HTML Components (dash.html) contains a component class for every HTML tag as well as keyword arguments for all of
+the HTML arguments.
+
+Let's customize the text in our app by modifying the inline styles of the components. Create a file named app.py with 
+the following code:"""
+
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 

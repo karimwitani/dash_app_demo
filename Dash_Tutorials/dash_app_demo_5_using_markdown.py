@@ -1,3 +1,9 @@
+"""
+Markdown
+While Dash exposes HTML through Dash HTML Components (dash.html), it can be tedious to write your copy in HTML. 
+For writing blocks of text, you can use the Markdown component in Dash Core Components (dash.dcc). 
+Create a file named app.py with the following code:"""
+
 # Run this app with `python app.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 
