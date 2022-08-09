@@ -80,7 +80,7 @@ def update_graph_live(n):
         data['time'].append(time)
 
     # Create the graph with subplots
-    fig = plotly.tools.make_subplots(rows=2, cols=1, vertical_spacing=0.2)
+    fig = plotly.subplots.make_subplots(rows=2, cols=1, vertical_spacing=0.2)
     fig['layout']['margin'] = {
         'l': 30, 'r': 10, 'b': 30, 't': 10
     }
@@ -103,6 +103,8 @@ def update_graph_live(n):
     }, 2, 1)
 
     return fig
+
+
 
 if __name__ == '__main__':
     app.run_server(port=8051,debug=True)
